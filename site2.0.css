@@ -1,5 +1,24 @@
 /*CSS Site NTM 2.0*/
-body{
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	font-weight: 1em;
+body {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-weight: 1em;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18%;
+}
+
+.menu {
+	display: inline-block;
+	padding: 0 3px;	
+	font-weight: 1.8em;
+}
+
+.nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
