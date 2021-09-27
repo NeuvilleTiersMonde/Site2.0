@@ -1,7 +1,6 @@
 /*CSS Site NTM 2.0*/
 body {
-  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-  font-weight: 1em;
+  font-family: "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
 .logo {
@@ -13,12 +12,45 @@ body {
 
 .menu {
 	display: inline-block;
-	padding: 0 3px;	
-	font-weight: 1.8em;
+	padding: 0 4px;	
+	font-size: 1.6em;
+}
+.menu:hover{
+	color: gray;
 }
 
 .nav{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+#now{
+	color: lightseagreen;
+}
+.main{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.titre {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 4em;
+}
+.motd {
+	position: absolute;
+	top: 46%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2em;
+}
+.bouton{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2em;
 }
