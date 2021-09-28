@@ -70,12 +70,12 @@ body {
 
 
 .deroulant{
-display: none;
+	display: none;
 }
 
 .deroulant li{
-padding: 1em;
-display: block;
+	padding: 1em;
+	display: block;
 }
 
 .menu:hover .deroulant{
