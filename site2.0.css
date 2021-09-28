@@ -1,10 +1,12 @@
 /*CSS Site NTM 2.0
 Help font-size responsive
 https://github.com/wadim/responsive-font-size*/
+@media only screen and (min-width: 768px) {
+
 body {
   font-family: "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
-
+	
 .logo {
   display: block;
   margin-left: auto;
@@ -26,9 +28,11 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+
 #now{
 	color: lightseagreen;
 }
+
 .main{
 	position: relative;
 	text-align: center;
@@ -42,6 +46,7 @@ body {
 	transform: translate(-50%, -50%);
 	font-size: 5.5vw/*calc(0.85em + 4vw)*/;
 }
+
 .motd {
 	position: absolute;
 	top: 57%;
@@ -49,6 +54,7 @@ body {
 	transform: translate(-50%, -50%);
 	font-size: 2.5vw/*2em*/;
 }
+
 .bouton{
 	position: absolute;
 	top: 85%;
@@ -60,4 +66,34 @@ body {
 	border-width: 0.1em;
 	border-color: white;
 	padding: 0 0.1em;
+}
+
+
+.deroulant{
+display: none;
+}
+
+.deroulant li{
+padding: 1em;
+display: block;
+}
+
+.menu:hover .deroulant{
+display: block;
+
+}
+@media only screen and (max-width: 768px){
+body {
+	font-family: "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.nav{
+	position: relative;
+	display: inline-block;
+}
 }
