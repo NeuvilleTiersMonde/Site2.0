@@ -1,7 +1,7 @@
 /*CSS Site NTM 2.0
 Help font-size responsive
 https://github.com/wadim/responsive-font-size*/
-@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {*/
 
 body {
   font-family: "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
@@ -22,7 +22,7 @@ body {
 	vertical-align: top;
 }
 .menu:hover{
-	color: gray;
+	color: lightgray;
 }
 
 .nav{
@@ -72,16 +72,23 @@ body {
 
 .deroulant{
 	display: none;
+	text-align: left;
+	color: black;
 }
 
-.deroulant li{
-	padding: 1em;
-	display: block;
+.deroulant:hover{
+	color: lightgrey;
 }
 
 .menu:hover .deroulant{
 	display: block;
+}
 
+footer {
+	background-color: lightgray;
+	
+}
+/*
 }
 @media only screen and (max-width: 768px){
 body {
@@ -97,4 +104,4 @@ body {
 	position: relative;
 	display: inline-block;
 }
-}
+}*/
