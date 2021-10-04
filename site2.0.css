@@ -85,8 +85,34 @@ body {
 }
 
 footer {
-	background-color: lightgray;
-	
+	background-color: #222222;
+	display: block;
+}
+
+.navi {
+	vertical-align: top;
+	display: inline-block;
+	color: white;
+}
+
+.navi > h1{
+	color: lightseagreen;
+	font-size: 1.5vw;
+	font-weight: normal;
+	text-align: center;
+}
+
+.lien {
+	vertical-align: top;
+	display: inline-block;
+	color: white;
+}
+
+.lien > h1{
+	color: lightseagreen;
+	font-size: 1.5vw;
+	font-weight: normal;
+	text-align: center;
 }
 /*
 }
