@@ -6,7 +6,12 @@ https://github.com/wadim/responsive-font-size*/
 body {
   font-family: "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
-	
+
+a {
+     text-decoration: none;
+     color: inherit;
+ }
+
 .logo {
   display: block;
   margin-left: auto;
@@ -102,6 +107,7 @@ footer {
 	font-size: 1.5vw;
 	font-weight: normal;
 	text-align: center;
+	margin-top: 10%;
 }
 
 .lien {
@@ -117,6 +123,7 @@ footer {
 	font-size: 1.5vw;
 	font-weight: normal;
 	text-align: center;
+	margin-top: 10%;
 }
 
 .info {
@@ -132,16 +139,25 @@ footer {
 	font-size: 1.5vw;
 	font-weight: normal;
 	text-align: center;
+	margin-top: 10%;
 }
 
-.info > .center > ul{
+.info ul{
 	list-style-type: none;
 }
 
- .info a {
-     text-decoration: none;
-     color: inherit;
- }
+footer li {
+	margin-top: 1vw;
+}
+
+.center {
+	text-align: center;
+}
+
+.center > ul {
+	display: inline-block; 
+	text-align: left;
+}
 /*
 }
 @media only screen and (max-width: 768px){
