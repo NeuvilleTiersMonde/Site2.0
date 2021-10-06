@@ -114,6 +114,22 @@ footer {
 	font-weight: normal;
 	text-align: center;
 }
+.info {
+	vertical-align: top;
+	display: inline-block;
+	color: white;
+	
+}
+
+.info > h1{
+	color: lightseagreen;
+	font-size: 1.5vw;
+	font-weight: normal;
+	text-align: center;
+}
+.info > ul{
+	list-style-type: none;
+}
 /*
 }
 @media only screen and (max-width: 768px){
