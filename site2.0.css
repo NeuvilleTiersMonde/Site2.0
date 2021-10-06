@@ -89,6 +89,16 @@ a {
 	display: block;
 }
 
+.top-article{
+	text-align: center;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+.ntm {
+	color: lightseagreen;
+	font-weight: bold;
+}
+
 footer {
 	background-color: #222222;
 	display: block;
