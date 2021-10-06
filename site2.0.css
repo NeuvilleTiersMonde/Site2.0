@@ -92,7 +92,9 @@ footer {
 .navi {
 	vertical-align: top;
 	display: inline-block;
+	width: 30%;
 	color: white;
+	font-size: 1.2vw;
 }
 
 .navi > h1{
@@ -105,7 +107,9 @@ footer {
 .lien {
 	vertical-align: top;
 	display: inline-block;
+	width: 30%;
 	color: white;
+	font-size: 1.2vw;
 }
 
 .lien > h1{
@@ -114,11 +118,13 @@ footer {
 	font-weight: normal;
 	text-align: center;
 }
+
 .info {
 	vertical-align: top;
 	display: inline-block;
+	width: 30%;
 	color: white;
-	
+	font-size: 1.2vw;
 }
 
 .info > h1{
@@ -127,9 +133,15 @@ footer {
 	font-weight: normal;
 	text-align: center;
 }
+
 .info > ul{
 	list-style-type: none;
 }
+
+ .info a {
+     text-decoration: none;
+     color: inherit;
+ }
 /*
 }
 @media only screen and (max-width: 768px){
