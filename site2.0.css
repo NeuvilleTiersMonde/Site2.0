@@ -134,7 +134,7 @@ footer {
 	text-align: center;
 }
 
-.info > ul{
+.info > .center > ul{
 	list-style-type: none;
 }
 
