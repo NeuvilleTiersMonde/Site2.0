@@ -92,6 +92,16 @@ a {
 footer {
 	background-color: #222222;
 	display: block;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+footer img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8%;
+	margin-bottom: 1%;
 }
 
 .navi {
@@ -107,7 +117,6 @@ footer {
 	font-size: 1.5vw;
 	font-weight: normal;
 	text-align: center;
-	margin-top: 10%;
 }
 
 .lien {
@@ -123,7 +132,6 @@ footer {
 	font-size: 1.5vw;
 	font-weight: normal;
 	text-align: center;
-	margin-top: 10%;
 }
 
 .info {
@@ -139,7 +147,6 @@ footer {
 	font-size: 1.5vw;
 	font-weight: normal;
 	text-align: center;
-	margin-top: 10%;
 }
 
 .info ul{
