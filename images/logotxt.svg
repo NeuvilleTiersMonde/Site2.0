@@ -7,7 +7,7 @@
    viewBox="0 0 204 81"
    version="1.1"
    id="svg127"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
    sodipodi:docname="logotxt.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,16 +25,23 @@
      showgrid="false"
      inkscape:zoom="1.0607991"
      inkscape:cx="572.21014"
-     inkscape:cy="301.65938"
-     inkscape:window-width="1827"
-     inkscape:window-height="1046"
-     inkscape:window-x="82"
-     inkscape:window-y="-11"
+     inkscape:cy="301.18804"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="0"
+     inkscape:window-y="34"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      width="209mm" />
   <defs
-     id="defs124" />
+     id="defs124">
+    <rect
+       x="540.08265"
+       y="91.708219"
+       width="147.08035"
+       height="104.58696"
+       id="rect14076" />
+  </defs>
   <g
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
@@ -53,23 +60,118 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;line-height:0;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT';text-align:center;text-anchor:middle;white-space:pre;inline-size:134.841;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;line-height:0;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:center;text-anchor:middle;white-space:pre;inline-size:152.154;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="194.91176"
        y="80.422806"
        id="text2189"
-       transform="translate(-53.250076,-35.751867)"><tspan
+       transform="translate(-59.142182,-55.489414)"><tspan
          x="194.91176"
          y="80.422806"
-         id="tspan14014"><tspan
+         id="tspan98528"><tspan
+           style="font-size:25.4px"
+           id="tspan98524">NEUVILLE</tspan><tspan
            style="font-size:27.1639px"
-           id="tspan14010">NEUVILLE</tspan><tspan
-           style="line-height:1.15"
-           id="tspan14012">
+           id="tspan98526">
 </tspan></tspan><tspan
          x="194.91176"
-         y="103.14175"
-         id="tspan14018"><tspan
-           style="line-height:1.15"
-           id="tspan14016">TIERS MONDE</tspan></tspan></text>
+         y="82.347233"
+         id="tspan98532"><tspan
+           style="font-size:27.1639px"
+           id="tspan98530">
+</tspan></tspan><tspan
+         x="194.91176"
+         y="84.271656"
+         id="tspan98536"><tspan
+           style="font-size:27.1639px"
+           id="tspan98534">
+</tspan></tspan><tspan
+         x="194.91176"
+         y="86.196079"
+         id="tspan98540"><tspan
+           style="font-size:27.1639px"
+           id="tspan98538">
+</tspan></tspan><tspan
+         x="194.91176"
+         y="88.120502"
+         id="tspan98544"><tspan
+           style="font-size:27.1639px"
+           id="tspan98542">
+</tspan></tspan><tspan
+         x="194.91176"
+         y="90.044926"
+         id="tspan98548"><tspan
+           style="font-size:27.1639px"
+           id="tspan98546">
+</tspan></tspan><tspan
+         x="194.91176"
+         y="91.969349"
+         id="tspan98552"><tspan
+           style="font-size:27.1639px"
+           id="tspan98550">
+</tspan></tspan><tspan
+         x="194.91176"
+         y="93.893772"
+         id="tspan98556"><tspan
+           style="font-size:27.1639px"
+           id="tspan98554">
+</tspan></tspan><tspan
+         x="194.91176"
+         y="95.818195"
+         id="tspan98560"><tspan
+           style="font-size:27.1639px"
+           id="tspan98558">
+</tspan></tspan><tspan
+         x="194.91176"
+         y="97.742618"
+         id="tspan98564"><tspan
+           style="font-size:27.1639px"
+           id="tspan98562">
+</tspan></tspan><tspan
+         x="194.91176"
+         y="99.667042"
+         id="tspan98568"><tspan
+           style="font-size:27.1639px"
+           id="tspan98566">
+</tspan></tspan><tspan
+         x="194.91176"
+         y="101.59146"
+         id="tspan98572"><tspan
+           style="font-size:27.1639px"
+           id="tspan98570">
+</tspan></tspan><tspan
+         x="194.91176"
+         y="103.51589"
+         id="tspan98576"><tspan
+           style="font-size:27.1639px"
+           id="tspan98574">
+</tspan></tspan><tspan
+         x="194.91176"
+         y="105.44031"
+         id="tspan98580"><tspan
+           style="font-size:27.1639px"
+           id="tspan98578">
+</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text14074"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect14076)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:25.4px;line-height:1.05;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="140.02933"
+       y="48.896004"
+       id="text69650"><tspan
+         sodipodi:role="line"
+         id="tspan69648"
+         style="font-size:25.4px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="140.02933"
+         y="48.896004"
+         dy="0 0 0 0">TIERS </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:25.4px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="140.02933"
+         y="75.566002"
+         id="tspan79638">MONDE</tspan></text>
   </g>
 </svg>
