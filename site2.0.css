@@ -1,4 +1,5 @@
-/* CSS Site NTM 2.0 */
+/* CSS*/
+/* Site NTM 2.0 */
 /* ---------------Balise-générale---------------- */
 body {
     font-family: "Gill Sans MT","Gill Sans MT Medium", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
@@ -34,13 +35,17 @@ a {
 .menu:hover {
     color: lightgray;
 }
+.menu:hover .deroulant {
+    display: block;
+}
 
 .deroulant {
     display: none;
     position: absolute;
+    background-color: white;
     text-align: left;
     color: black;
-    min-width: 160px;
+    min-width: 20vw;
     z-index: 1;
 }
 
@@ -48,15 +53,11 @@ a {
     color: black;
     padding: 1vw 3vw;
     text-decoration: none;
-    display: block;
+    display: flex;
 }
 
 .deroulant:hover {
     color: lightgrey;
-}
-
-.menu:hover .deroulant {
-    display: block;
 }
 
 nav {
@@ -118,25 +119,36 @@ nav {
 }
 
 .video {
-    display: inline-flex;
-    width: 55vw;
+    display: inline-block;
+    width: 45vw;
     height: 55vh;
 }
 
 .video > iframe {
-    margin: auto;
+    margin-top: 2vh;
     width: 90%;
     height: 90%;
-    border: 0px;
 }
 
 .annexe {
-    display: inline-flex;
+    display: inline-block;
     vertical-align: top;
+    width: 50vw;
+    height: 43vh;
+    background-color: lightseagreen;
+    float: right;
+    font-size: 1.8vw;
+    text-align: center;
+    padding-top: 10vh;
 }
 
 .annexe ul {
     list-style-type: disc;
+    margin: 6%;
+}
+.annexe ul li {
+    font-size: 1.5vw;
+    text-align: left;
 }
 
 /* --------------------Footer-------------------- */
