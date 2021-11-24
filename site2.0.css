@@ -35,29 +35,19 @@ a {
 .menu:hover {
     color: lightgray;
 }
-.menu:hover .deroulant {
-    display: block;
-}
 
 .deroulant {
     display: none;
+}
+
+.menu:hover .deroulant {
+    display: flex;
     position: absolute;
     background-color: white;
     text-align: left;
     color: black;
     min-width: 20vw;
     z-index: 1;
-}
-
-.deroulant a {
-    color: black;
-    padding: 1vw 3vw;
-    text-decoration: none;
-    display: flex;
-}
-
-.deroulant:hover {
-    color: lightgrey;
 }
 
 nav {
