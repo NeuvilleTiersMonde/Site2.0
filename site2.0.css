@@ -59,6 +59,46 @@ nav {
 #now {
     color: lightseagreen;
 }
+/*----------------------Test----------------------*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding: 0 1vw;
+    font-size: 2vw/*1.6em*/;
+    vertical-align: top;
+}
+.dropbtn {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 0 1vw;
+    font-size: 2vw/*1.6em*/;
+    vertical-align: top;
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    color: black;
+    background-color: white;
+    position: absolute;
+    min-width: 20vw;
+    z-index: 1;
+}
+.dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: lightseagreen;
+    background-color: lightgrey;
+}
+
 
 /* ------------------Contenue-------------------- */
 .main {
