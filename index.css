@@ -101,13 +101,13 @@ nav {
 
 
 /* ------------------Contenue-------------------- */
-.main {
+.top {
     position: relative;
     text-align: center;
     color: white;
 }
 
-.main img {
+.top img {
     width: 100%;
 }
 
@@ -169,7 +169,7 @@ nav {
     float: right;
     font-size: 1.8vw;
     text-align: center;
-    padding-top: 10vh;
+    padding-top: 12vh;
 }
 
 .annexe ul {

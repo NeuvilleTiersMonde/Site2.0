@@ -1,0 +1,199 @@
+/* CSS*/
+/* Site NTM 2.0 */
+/* ---------------Balise-générale---------------- */
+body {
+    font-family: "Gill Sans MT","Gill Sans MT Medium", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.ntm {
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+/* --------------------Header-------------------- */
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18%;
+}
+
+.menu {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 0 1vw;
+    font-size: 2vw/*1.6em*/;
+    vertical-align: top;
+}
+
+.menu:hover {
+    color: lightgray;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding: 0 1vw;
+    font-size: 2vw/*1.6em*/;
+    vertical-align: top;
+}
+.dropbtn {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 0 1vw;
+    font-size: 2vw/*1.6em*/;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    color: black;
+    background-color: white;
+    position: absolute;
+    min-width: 20vw;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: lightseagreen;
+    background-color: lightgrey;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#now {
+    color: lightseagreen;
+}
+
+
+/* ------------------Contenue-------------------- */
+main {
+    position: relative;
+    margin: 5%;
+    padding: 7% 10%;
+    font-size: 2vw;
+    border: 0.6vw solid #222222;
+}
+
+
+
+/* --------------------Footer-------------------- */
+footer {
+    background-color: #222222;
+    display: block;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+footer img {
+    display: block;
+    margin: 8% auto 1% auto;
+}
+
+footer ul {
+    list-style-type: disc;
+}
+
+.navi {
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    color: white;
+    font-size: 1.2vw;
+}
+
+.navi > h1 {
+    color: lightseagreen;
+    font-size: 1.7vw;
+    font-weight: normal;
+    text-align: center;
+}
+
+.lien {
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    color: white;
+    font-size: 1.2vw;
+}
+
+.lien > h1 {
+    color: lightseagreen;
+    font-size: 1.7vw;
+    font-weight: normal;
+    text-align: center;
+}
+
+.info {
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    color: white;
+    font-size: 1.2vw;
+}
+
+.info > h1 {
+    color: lightseagreen;
+    font-size: 1.7vw;
+    font-weight: normal;
+    text-align: center;
+}
+
+.info ul {
+    list-style-type: none;
+}
+
+footer li {
+    margin-top: 1vw;
+}
+
+.center {
+    text-align: center;
+}
+
+.center img {
+    width: 50%;
+}
+
+.center > ul {
+    display: inline-block;
+    text-align: left;
+}
+
+/* }
+@media only screen and (max-width: 768px){
+body {
+	font-family: "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.nav{
+	position: relative;
+	display: inline-block;
+}
+} */
