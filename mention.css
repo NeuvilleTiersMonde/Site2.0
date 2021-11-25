@@ -94,6 +94,7 @@ main {
     padding: 7% 10%;
     font-size: 2vw;
     border: 0.6vw solid #222222;
+    border-radius: 4vw;
 }
 
 
@@ -174,6 +175,7 @@ footer li {
 
 .center img {
     width: 50%;
+    filter: invert(100%);
 }
 
 .center > ul {
