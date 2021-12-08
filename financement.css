@@ -94,6 +94,12 @@ nav {
 
 /* ------------------Contenue-------------------- */
 
+main h1{
+    color: lightseagreen;
+    text-align: center;
+    font-size: 5vw;
+}
+
 .article {
     display: inline-block;
     width: 45vw;
