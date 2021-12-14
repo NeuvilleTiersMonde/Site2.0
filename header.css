@@ -74,3 +74,8 @@ nav {
 #now2 {
     color: lightseagreen;
 }
+
+hr {
+    border: 0.2vh solid #222222;
+    width:90%;
+}

@@ -23,23 +23,24 @@ main h1{
     font-size: 5vw;
 }
 
-.article {
-    display: inline-block;
-    width: 45vw;
-    height: 55vh;
+article {
+    padding-left: 2vw;
+    display: block;
+    width: 96vw;
     font-size: 1.8vw;
+    line-height: 2.6vw;
 }
 
-main img {
-    margin-top: 4vw;
-    display: inline-block;
-    vertical-align: top;
-    width: 48vw;
-    height: calc(43vw*0.75);
+article img {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width: 48%;
+    height: calc(48%*0.75);
     float: right;
     text-align: center;
     border: lightseagreen 1vw solid;
     border-radius: 3vw;
+
 }
 
 /* }
