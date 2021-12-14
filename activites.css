@@ -17,7 +17,7 @@ a {
 
 /* ------------------Contenue-------------------- */
 
-main h1{
+section h1{
     color: lightseagreen;
     text-align: center;
     font-size: 5vw;
@@ -25,41 +25,27 @@ main h1{
 
 section {
     padding-left: 2vw;
+    padding-right: 2vw;
     display: block;
     width: 96vw;
     font-size: 1.8vw;
     line-height: 2.6vw;
 }
 
-article {
+section h2{
     padding-left: 2vw;
-    display: block;
-    width: 96vw;
-    font-size: 1.8vw;
-    line-height: 2.6vw;
+    color: lightseagreen;
+    font-size: 3vw;
 }
 
-.no-dot{
-    list-style-type: none;
-    font-size: 1.4vw;
-    line-height: 1.9vw;
+section a{
+    margin-left: 4vw;
+    font-size: 2.3vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: yellow;
+    padding: 0 0.1em;
 }
-section img[alt~="Affiche"] {
-    width: 20vw;
-    margin-top: 8vw;
-    margin-right: 2vw;
-    margin-left: 2vw;
-    float: right;
-    border: lightseagreen 1vw solid;
-    border-radius: 3vw;
-}
-.no-dot img {
-    height: 3vw;
-    vertical-align: middle;
-}
-
-
-
 /* }
 @media only screen and (max-width: 768px){
 body {

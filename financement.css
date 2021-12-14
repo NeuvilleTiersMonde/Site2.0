@@ -31,14 +31,6 @@ section {
     line-height: 2.6vw;
 }
 
-article {
-    padding-left: 2vw;
-    display: block;
-    width: 96vw;
-    font-size: 1.8vw;
-    line-height: 2.6vw;
-}
-
 .no-dot{
     list-style-type: none;
     font-size: 1.4vw;
