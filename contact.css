@@ -1,0 +1,80 @@
+/* CSS*/
+/* Site NTM 2.0 */
+/* ---------------Balise-générale---------------- */
+body {
+    font-family: "Gill Sans MT","Gill Sans MT Medium", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.ntm {
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+/* ------------------Contenue-------------------- */
+
+section h1{
+    color: lightseagreen;
+    text-align: center;
+    font-size: 5vw;
+}
+
+section {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    display: block;
+    width: 93vw;
+    font-size: 1.8vw;
+    line-height: 2.6vw;
+}
+
+section img {
+    width: 100%;
+}
+
+section ul {
+    margin-left: 2vw;
+}
+
+section h2{
+    padding-left: 2vw;
+    color: lightseagreen;
+    font-size: 3vw;
+}
+
+.courrier{
+    right: 4vw;
+    margin-top: 32vw;
+    padding-left: 2vw;
+    position: absolute;
+    float: right;
+    width: 30vw;
+    display: flex;
+    border: 0.5vw solid lightseagreen;
+    background-color: #e8f7f6;
+    border-radius: 3vw;
+    align-items: center;
+}
+.courrier img {
+    width: 7vw;
+}
+/* }
+@media only screen and (max-width: 768px){
+body {
+	font-family: "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.nav{
+	position: relative;
+	display: inline-block;
+}
+} */
