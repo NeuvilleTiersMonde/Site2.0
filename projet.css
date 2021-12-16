@@ -1,0 +1,103 @@
+/* CSS*/
+/* Site NTM 2.0 */
+/* ---------------Balise-générale---------------- */
+body {
+    font-family: "Gill Sans MT","Gill Sans MT Medium", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.ntm {
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+/* ------------------Contenue-------------------- */
+
+section h1{
+    color: lightseagreen;
+    text-align: center;
+    font-size: 5vw;
+}
+
+section {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    display: block;
+    width: 94vw;
+    font-size: 1.8vw;
+    line-height: 2.6vw;
+}
+
+section h2{
+    padding-left: 2vw;
+    color: lightseagreen;
+    font-size: 3vw;
+}
+p {
+    margin-left: 2vw;
+}
+.flex img {
+    height: 33vh;
+    border: lightseagreen 0.8vw solid;
+    border-radius: 3vw;
+}
+article img {
+    height: 25vw;
+    border: lightseagreen 0.8vw solid;
+    border-radius: 3vw;
+    float: right;
+    margin-left: 2vw;
+ }
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.flex iframe {
+    margin-top: 6vh;
+    width: 30vw;
+    height: 40vh;
+    border: lightseagreen 1vw solid;
+    border-radius: 3vw;
+}
+.flex .sensi {
+    width: 40vw;
+}
+.sensi img {
+    width: 35vw;
+}
+.flex a {
+    font-size: 2.3vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: yellow;
+    padding: 0 0.1em;
+}
+
+.iframe1 {
+    margin: 4vh auto;
+    width: 91vw;
+    height: 96vh;
+    border: lightseagreen 1vw solid;
+    border-radius: 3vw;
+}
+/* }
+@media only screen and (max-width: 768px){
+body {
+	font-family: "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.nav{
+	position: relative;
+	display: inline-block;
+}
+} */
