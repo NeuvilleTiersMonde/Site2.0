@@ -27,7 +27,7 @@ section {
     padding-left: 2vw;
     padding-right: 2vw;
     display: block;
-    width: 94vw;
+    width: 93vw;
     font-size: 1.8vw;
     line-height: 2.6vw;
 }
@@ -36,46 +36,31 @@ section img {
     width: 100%;
 }
 
+section ul {
+    margin-left: 2vw;
+}
+
 section h2{
     padding-left: 2vw;
     color: lightseagreen;
     font-size: 3vw;
 }
-p {
-    text-align: center;
-}
-.flex img {
-    width: 30vw;
-    border: lightseagreen 1vw solid;
-    border-radius: 3vw;
-}
-.flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.flex iframe {
-    width: 40vw;
-    height: calc(40vw*0.5625);
-    border: lightseagreen 1vw solid;
-    border-radius: 3vw;
-}
-section a {
-    font-size: 2.3vw;
-    border-style: solid;
-    border-width: 0.5vw;
-    border-color: yellow;
-    padding: 0 0.1em;
-}
 
-.iframe1 {
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 4vh;
-    width: 91vw;
-    height: 96vh;
-    border: lightseagreen 1vw solid;
+.courrier{
+    right: 4vw;
+    margin-top: 32vw;
+    padding-left: 2vw;
+    position: absolute;
+    float: right;
+    width: 30vw;
+    display: flex;
+    border: 0.5vw solid lightseagreen;
+    background-color: #e8f7f6;
     border-radius: 3vw;
+    align-items: center;
+}
+.courrier img {
+    width: 7vw;
 }
 /* }
 @media only screen and (max-width: 768px){
