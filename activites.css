@@ -1,64 +1,100 @@
-/* CSS*/
-/* Site NTM 2.0 */
-/* ---------------Balise-générale---------------- */
-body {
-    font-family: "Gill Sans MT","Gill Sans MT Medium", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-}
+@media only screen and (max-width: 600px) {
+    /* ---------------Balise-générale---------------- */
+    body {
+        font-family: "Gill Sans MT", "Gill Sans MT Medium", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    main {
+        overflow: hidden;
+        margin-left: -5vw;
+    }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
 
-.ntm {
-    color: lightseagreen;
-    font-weight: bold;
-}
+    .ntm {
+        color: lightseagreen;
+        font-weight: bold;
+    }
 
-/* ------------------Contenue-------------------- */
+    /* ------------------Contenue-------------------- */
+    section h1 {
+        color: lightseagreen;
+        text-align: center;
+        font-size: 8vw;
+    }
 
-section h1{
-    color: lightseagreen;
-    text-align: center;
-    font-size: 5vw;
-}
+    section {
+        padding-left: 2vw;
+        display: block;
+        width: 96vw;
+        font-size: 5vw;
+    }
 
-section {
-    padding-left: 2vw;
-    padding-right: 2vw;
-    display: block;
-    width: 94vw;
-    font-size: 1.8vw;
-    line-height: 2.6vw;
-}
+    section h2 {
+        padding-left: 5vw;
+        color: lightseagreen;
+        font-size: 6vw;
+    }
 
-section h2{
-    padding-left: 2vw;
-    color: lightseagreen;
-    font-size: 3vw;
+    section a {
+        display: block;
+        text-align: center;
+        margin-left: 28vw;
+        font-size: 7vw;
+        border-style: solid;
+        border-width: 1vw;
+        width: 40vw;
+        border-color: yellow;
+        padding: 1vw;
+        margin-bottom: 3vw;
+    }
 }
+@media only screen and (min-width: 601px) {
+    /* ---------------Balise-générale---------------- */
+    body {
+        font-family: "Gill Sans MT", "Gill Sans MT Medium", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
 
-section a{
-    margin-left: 4vw;
-    font-size: 2.3vw;
-    border-style: solid;
-    border-width: 0.5vw;
-    border-color: yellow;
-    padding: 0 0.1em;
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .ntm {
+        color: lightseagreen;
+        font-weight: bold;
+    }
+
+    /* ------------------Contenue-------------------- */
+    section h1 {
+        color: lightseagreen;
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    section {
+        padding-left: 2vw;
+        padding-right: 2vw;
+        display: block;
+        width: 94vw;
+        font-size: 1.8vw;
+        line-height: 2.6vw;
+    }
+
+    section h2 {
+        padding-left: 2vw;
+        color: lightseagreen;
+        font-size: 3vw;
+    }
+
+    section a {
+        margin-left: 4vw;
+        font-size: 2.3vw;
+        border-style: solid;
+        border-width: 0.5vw;
+        border-color: yellow;
+        padding: 0 0.1em;
+    }
 }
-/* }
-@media only screen and (max-width: 768px){
-body {
-	font-family: "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-}
-.logo {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-}
-.nav{
-	position: relative;
-	display: inline-block;
-}
-} */
