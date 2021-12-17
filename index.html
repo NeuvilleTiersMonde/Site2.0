@@ -15,10 +15,15 @@
     </head>
     <body>
         <header>
-            <a href="index.html"><img class="logo" src="images/logotxt.svg" alt="Logo NTM"></a>
+            <a href="index.html"> <picture >
+                <source srcset="images/phonelogo.svg" media="(max-width: 600px)">
+                <source srcset="images/logotxt.svg">
+                <img class="logo" src="images/logotxt.svg" alt="Logo NTM">
+            </picture></a>
         </header>
         <nav>
-            <ul>
+            <a class="phoneonly" href="plan.html"><img class="menubar" src="images/menu.svg" alt="menu"></a>
+            <ul class="pconly">
                 <li class="dropdown" id="now">
                     <a href="index.html" class="dropbtn">Accueil</a>
                     <div class="dropdown-content">
@@ -69,7 +74,7 @@
             </div>
         </main>
         <footer>
-            <div class="navi">
+            <span class="pconly"> <div class="navi">
                 <h1>Navigation</h1>
                 <div class="center">
                     <ul>
@@ -102,17 +107,19 @@
                     </ul>
                 </div>
             </div>
+                </span>
             <div class="info">
                 <h1>Contacts</h1>
                 <div class="center">
-                    <img src="images/logotxt.svg" alt="Logo Neuville Tiers Monde">
+                    <span class="pconly"> <img src="images/logotxt.svg" alt="Logo Neuville Tiers Monde"></span>
                     <ul>
                         <li>
                             <i class="fas fa-map-marker-alt"></i>
                             <a href="https://goo.gl/maps/b39RuXQ2Rdo9cy7s6" target="_blank"> 15, rue Vandermeersch</a>
                         </li>
                         <li>
-                            <a href="https://goo.gl/maps/b39RuXQ2Rdo9cy7s6" style="padding-left:9%">59960 Neuville en Ferrain</a>
+                            <i class="fas fa-envelope" style="filter:opacity(0%)"></i>
+                            <a href="https://goo.gl/maps/b39RuXQ2Rdo9cy7s6">59960 Neuville en Ferrain</a>
                         </li>
                         <li>
                             <i class="fas fa-envelope"></i>

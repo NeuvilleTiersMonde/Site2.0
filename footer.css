@@ -1,85 +1,132 @@
 /* --------------------Footer-------------------- */
+@media only screen and (max-width: 600px){
+    footer {
+        background-color: #222222;
+        display: block;
+        margin-top: 2vw;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .info h1 {
+        color: lightseagreen;
+        text-align: center;
+        text-decoration: underline;
 
-footer {
-    background-color: #222222;
-    display: block;
-    margin-top: 2vw;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    }
+    .center ul {
+        list-style-type: none;
+    }
+    .center ul li {
+        color: white;
+        font-size: 4vw;
+        padding-left: 12vw;
+    }
 }
 
-footer img {
-    display: block;
-    margin: 8% auto 1% auto;
-}
 
-footer ul {
-    list-style-type: disc;
-}
 
-.navi {
-    vertical-align: top;
-    display: inline-block;
-    width: 30%;
-    color: white;
-    font-size: 1.2vw;
-}
 
-.navi > h1 {
-    color: lightseagreen;
-    font-size: 1.7vw;
-    font-weight: normal;
-    text-align: center;
-}
 
-.lien {
-    vertical-align: top;
-    display: inline-block;
-    width: 30%;
-    color: white;
-    font-size: 1.2vw;
-}
 
-.lien > h1 {
-    color: lightseagreen;
-    font-size: 1.7vw;
-    font-weight: normal;
-    text-align: center;
-}
 
-.info {
-    vertical-align: top;
-    display: inline-block;
-    width: 30%;
-    color: white;
-    font-size: 1.2vw;
-}
 
-.info > h1 {
-    color: lightseagreen;
-    font-size: 1.7vw;
-    font-weight: normal;
-    text-align: center;
-}
 
-.info ul {
-    list-style-type: none;
-}
 
-footer li {
-    margin-top: 1vw;
-}
 
-.center {
-    text-align: center;
-}
 
-.center img {
-    width: 50%;
-    filter: invert(100%);
-}
 
-.center > ul {
-    display: inline-block;
-    text-align: left;
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 601px) {
+    footer {
+        background-color: #222222;
+        display: block;
+        margin-top: 2vw;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    footer img {
+        display: block;
+        margin: 8% auto 1% auto;
+    }
+
+    footer ul {
+        list-style-type: disc;
+    }
+
+    .navi {
+        vertical-align: top;
+        display: inline-block;
+        width: 30%;
+        color: white;
+        font-size: 1.2vw;
+    }
+
+    .navi > h1 {
+        color: lightseagreen;
+        font-size: 1.7vw;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .lien {
+        vertical-align: top;
+        display: inline-block;
+        width: 30%;
+        color: white;
+        font-size: 1.2vw;
+    }
+
+    .lien > h1 {
+        color: lightseagreen;
+        font-size: 1.7vw;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .info {
+        vertical-align: top;
+        display: inline-block;
+        width: 30%;
+        color: white;
+        font-size: 1.2vw;
+    }
+
+    .info > h1 {
+        color: lightseagreen;
+        font-size: 1.7vw;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .info ul {
+        list-style-type: none;
+    }
+
+    footer li {
+        margin-top: 1vw;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .center img {
+        width: 50%;
+        filter: invert(100%);
+    }
+
+    .center > ul {
+        display: inline-block;
+        text-align: left;
+    }
 }

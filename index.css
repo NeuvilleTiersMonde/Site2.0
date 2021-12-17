@@ -1,117 +1,219 @@
-/* CSS*/
-/* Site NTM 2.0 */
-/* ---------------Balise-générale---------------- */
-body {
-    font-family: "Gill Sans MT","Gill Sans MT Medium", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-}
+@media only screen and (max-width: 600px) {
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
+    /* ---------------Balise-générale---------------- */
+    body {
+        font-family: "Gill Sans MT", "Gill Sans MT Medium", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
 
-.ntm {
-    color: lightseagreen;
-    font-weight: bold;
-}
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
 
-/* ------------------Contenue-------------------- */
-.top {
-    position: relative;
-    text-align: center;
-    color: white;
-}
+    .ntm {
+        color: lightseagreen;
+        font-weight: bold;
+    }
 
-.top img {
-    width: 100%;
-}
+    /* ------------------Contenue-------------------- */
+    main {
+        overflow: hidden;
+    }
+    .top {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
 
-.titre {
-    position: absolute;
-    top: 28%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 5.5vw/*calc(0.85em + 4vw)*/;
-}
+    .top img {
+        margin-left: -10%;
+        width: 200%;
+    }
 
-.motd {
-    position: absolute;
-    top: 57%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2.5vw/*2em*/;
-}
+    .titre {
+        position: absolute;
+        top: 17%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 10vw;
+        width: 100%;
+    }
 
-.bouton {
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2.4vw/*1.7em*/;
-    color: yellow;
-    border-style: solid;
-    border-width: 0.1em;
-    border-color: white;
-    padding: 0 0.1em;
-}
+    .motd {
+        position: absolute;
+        top: 53%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 6vw;
+        width: 100%;
+    }
 
-.top-article {
-    text-align: center;
-    padding-left: 15%;
-    padding-right: 15%;
-    color: black;
-    font-size: 2.2vw;
-}
+    .bouton {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 6vw;
+        color: yellow;
+        border-style: solid;
+        border-width: 0.7vw;
+        border-color: white;
+        padding: 1vw;
+        overflow: hidden;
+    }
 
-.video {
-    margin-left: 1vw;
-    display: inline-block;
-    width: 45vw;
-    height: 55vh;
-}
+    .top-article {
+        text-align: center;
+        padding-left: 15%;
+        padding-right: 15%;
+        color: black;
+        font-size: 5vw;
+    }
 
-.video > iframe {
-
-    margin-top: 2vh;
-    width: 90%;
-    height: 90%;
-}
-
-.annexe {
-    display: inline-block;
-    vertical-align: top;
-    width: 50vw;
-    height: 43vh;
-    background-color: lightseagreen;
-    float: right;
-    font-size: 1.8vw;
-    text-align: center;
-    padding-top: 12vh;
-}
-
-.annexe ul {
-    list-style-type: disc;
-    margin: 6%;
-}
-.annexe ul li {
-    font-size: 1.5vw;
-    text-align: left;
-}
+    iframe {
+        display: block;
+        width: 100vw;
+        height: 60vw;
+        margin-bottom: 5vw;
+    }
 
 
-/* }
-@media only screen and (max-width: 768px){
-body {
-	font-family: "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    .annexe {
+        display: block;
+        width: 100vw;
+        height: auto;
+        background-color: lightseagreen;
+        font-size: 7vw;
+        text-align: center;
+        align-content: center;
+        padding-top: 6vw;
+        padding-bottom: 6vw;
+    }
+
+    .annexe ul {
+        list-style-type: disc;
+        margin: 6%;
+    }
+
+    .annexe ul li {
+        font-size: 5vw;
+        text-align: left;
+    }
 }
-.logo {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 601px) {
+    /* ---------------Balise-générale---------------- */
+    body {
+        font-family: "Gill Sans MT", "Gill Sans MT Medium", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .ntm {
+        color: lightseagreen;
+        font-weight: bold;
+    }
+
+    /* ------------------Contenue-------------------- */
+    .top {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .top img {
+        width: 100%;
+    }
+
+    .titre {
+        position: absolute;
+        top: 28%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 5.5vw;
+    }
+
+    .motd {
+        position: absolute;
+        top: 57%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2.5vw;
+    }
+
+    .bouton {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2.4vw;
+        color: yellow;
+        border-style: solid;
+        border-width: 0.3vw;
+        border-color: white;
+        padding: 0 0.2vw;
+    }
+
+    .top-article {
+        text-align: center;
+        padding-left: 15%;
+        padding-right: 15%;
+        color: black;
+        font-size: 2.2vw;
+    }
+
+    .video {
+        margin-left: 1vw;
+        display: inline-block;
+        width: 45vw;
+        height: 28vw;
+        padding-bottom: 1vw;
+    }
+
+    .video > iframe {
+
+        margin-top: 1.6vw;
+        width: 90%;
+        height: 90%;
+    }
+
+    .annexe {
+        display: inline-block;
+        vertical-align: top;
+        width: 50vw;
+        height: 22vw;
+        background-color: lightseagreen;
+        float: right;
+        font-size: 1.8vw;
+        text-align: center;
+        align-content: center;
+        padding-top: 6vw;
+    }
+
+    .annexe ul {
+        list-style-type: disc;
+        margin: 6%;
+    }
+
+    .annexe ul li {
+        font-size: 1.5vw;
+        text-align: left;
+    }
 }
-.nav{
-	position: relative;
-	display: inline-block;
-}
-} */
