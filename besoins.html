@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8" content="text/html" http-equiv="content-type"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,12 +13,17 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="header.css">
 </head>
-    <body>
-        <header>
-            <a href="index.html"><img class="logo" src="images/logotxt.svg" alt="Logo NTM"></a>
-        </header>
-        <nav>
-            <ul>
+<body>
+<header>
+    <a href="index.html"> <picture >
+        <source srcset="images/phonelogo.svg" media="(max-width: 600px)">
+        <source srcset="images/logotxt.svg">
+        <img class="logo" src="images/logotxt.svg" alt="Logo NTM">
+    </picture></a>
+</header>
+<nav>
+    <a class="phoneonly" href="plan.html"><img class="menubar" src="images/menu.svg" alt="menu"></a>
+    <ul class="pconly">
                 <li class="dropdown">
                     <a href="index.html" class="dropbtn">Accueil</a>
                     <div class="dropdown-content">
@@ -46,10 +51,10 @@
                 <h1>Nos Besoins</h1>
                 <img src="images/top-besoin.png" alt="Enfant soigné sans un dispensaire.">
                 <h2>L’association collecte:</h2>
-                <a class="courrier" href="documents/courrier_parrainage.pdf">
+                <span class="pconly"><a class="courrier" href="documents/courrier_parrainage.pdf">
                     Courrier du Frère Dominique
                     <img src="images/logopdf.png" alt="logo PDF">
-                </a>
+                </a></span>
                 <p><strong>Pour envoi aux dispensaires :</strong><br />
                     Pansements, sparadrap, compresses, tulles gras, bandes, compléments alimentaires, aliment parentéral, petits matériels médicaux (seringues, matériels de perfusion, cathéter, bonnets et masques de chirurgie, glucomètre, tensiomètre, stéthoscope, bistouri électrique, etc), lait en poudre pour bébé, poches pour urine.<br />
                     <strong>Pour envoi aux ateliers des centres de formation :</strong><br />
@@ -67,11 +72,11 @@
                     <li>l’achat de médicaments en local,</li>
                     <li>parrainer des classes d’élèves d’une école primaire à M’bour au Sénégal.</li>
                 </ul>
-                <a href="https://www.donnerenligne.fr/neuville-tiers-monde/faire-un-don">Vos dons <span style="font-size: 2.3vw;border-style: solid;border-width: 0.5vw;border-color: yellow;padding: 0 0.1em;">ici</span> (réduction fiscale de 66,66% sur les impôts)</a>
+                <a href="https://www.donnerenligne.fr/neuville-tiers-monde/faire-un-don">Vos dons <span style="font-size: 7vw;border-style: solid;border-width: 1vw;border-color: yellow;padding: 1vw;">ici</span> (réduction fiscale de 66,66% sur les impôts)</a>
             </section>
         </main>
-        <footer>
-            <div class="navi">
+<footer>
+            <span class="pconly"> <div class="navi">
                 <h1>Navigation</h1>
                 <div class="center">
                     <ul>
@@ -104,29 +109,31 @@
                     </ul>
                 </div>
             </div>
-            <div class="info">
-                <h1>Contacts</h1>
-                <div class="center">
-                    <img src="images/logotxt.svg" alt="Logo Neuville Tiers Monde">
-                    <ul>
-                        <li>
-                            <i class="fas fa-map-marker-alt"></i>
-                            <a href="https://goo.gl/maps/b39RuXQ2Rdo9cy7s6" target="_blank"> 15, rue Vandermeersch</a>
-                        </li>
-                        <li>
-                            <a href="https://goo.gl/maps/b39RuXQ2Rdo9cy7s6" style="padding-left:9%">59960 Neuville en Ferrain</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-envelope"></i>
-                            <a href="mailto:neuville.tiers.monde@gmail.fr"> neuville.tiers.monde@gmail.fr</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-phone"></i>
-                            <a href="tel:+33952000300"> 0952000300</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
-    </body>
+                </span>
+    <div class="info">
+        <h1>Contacts</h1>
+        <div class="center">
+            <span class="pconly"> <img src="images/logotxt.svg" alt="Logo Neuville Tiers Monde"></span>
+            <ul>
+                <li>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <a href="https://goo.gl/maps/b39RuXQ2Rdo9cy7s6" target="_blank"> 15, rue Vandermeersch</a>
+                </li>
+                <li>
+                    <i class="fas fa-envelope" style="filter:opacity(0%)"></i>
+                    <a href="https://goo.gl/maps/b39RuXQ2Rdo9cy7s6">59960 Neuville en Ferrain</a>
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:neuville.tiers.monde@gmail.fr"> neuville.tiers.monde@gmail.fr</a>
+                </li>
+                <li>
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+33952000300"> 0952000300</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
 </html>

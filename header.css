@@ -9,7 +9,8 @@
         width: 92vw;
     }
     .menubar {
-        width: 94vw;
+        width: 93vw;
+        margin-left: 2vw;
     }
     .pconly{
         display: none;

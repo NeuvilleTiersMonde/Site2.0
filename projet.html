@@ -13,12 +13,17 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="header.css">
 </head>
-    <body>
-        <header>
-            <a href="index.html"><img class="logo" src="images/logotxt.svg" alt="Logo NTM"></a>
-        </header>
-        <nav>
-            <ul>
+<body>
+<header>
+    <a href="index.html"> <picture >
+        <source srcset="images/phonelogo.svg" media="(max-width: 600px)">
+        <source srcset="images/logotxt.svg">
+        <img class="logo" src="images/logotxt.svg" alt="Logo NTM">
+    </picture></a>
+</header>
+<nav>
+    <a class="phoneonly" href="plan.html"><img class="menubar" src="images/menu.svg" alt="menu"></a>
+    <ul class="pconly">
                 <li class="dropdown">
                     <a href="index.html" class="dropbtn">Accueil</a>
                     <div class="dropdown-content">
@@ -72,8 +77,8 @@
                 </div>
             </section>
         </main>
-        <footer>
-            <div class="navi">
+<footer>
+            <span class="pconly"> <div class="navi">
                 <h1>Navigation</h1>
                 <div class="center">
                     <ul>
@@ -106,29 +111,31 @@
                     </ul>
                 </div>
             </div>
-            <div class="info">
-                <h1>Contacts</h1>
-                <div class="center">
-                    <img src="images/logotxt.svg" alt="Logo Neuville Tiers Monde">
-                    <ul>
-                        <li>
-                            <i class="fas fa-map-marker-alt"></i>
-                            <a href="https://goo.gl/maps/b39RuXQ2Rdo9cy7s6" target="_blank"> 15, rue Vandermeersch</a>
-                        </li>
-                        <li>
-                            <a href="https://goo.gl/maps/b39RuXQ2Rdo9cy7s6" style="padding-left:9%">59960 Neuville en Ferrain</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-envelope"></i>
-                            <a href="mailto:neuville.tiers.monde@gmail.fr"> neuville.tiers.monde@gmail.fr</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-phone"></i>
-                            <a href="tel:+33952000300"> 0952000300</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
-    </body>
+                </span>
+    <div class="info">
+        <h1>Contacts</h1>
+        <div class="center">
+            <span class="pconly"> <img src="images/logotxt.svg" alt="Logo Neuville Tiers Monde"></span>
+            <ul>
+                <li>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <a href="https://goo.gl/maps/b39RuXQ2Rdo9cy7s6" target="_blank"> 15, rue Vandermeersch</a>
+                </li>
+                <li>
+                    <i class="fas fa-envelope" style="filter:opacity(0%)"></i>
+                    <a href="https://goo.gl/maps/b39RuXQ2Rdo9cy7s6">59960 Neuville en Ferrain</a>
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:neuville.tiers.monde@gmail.fr"> neuville.tiers.monde@gmail.fr</a>
+                </li>
+                <li>
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+33952000300"> 0952000300</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
 </html>
