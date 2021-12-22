@@ -1,0 +1,87 @@
+@media only screen and (max-width: 600px) {
+    /* ---------------Balise-générale---------------- */
+    body {
+        font-family: "Gill Sans MT", "Gill Sans MT Medium", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    main {
+        overflow: hidden;
+        margin-left: -2vw;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .ntm {
+        color: lightseagreen;
+        font-weight: bold;
+    }
+
+    /* ------------------Contenue-------------------- */
+    section h1 {
+        color: lightseagreen;
+        text-align: center;
+        font-size: 8vw;
+    }
+
+    section {
+        padding-left: 2vw;
+        display: block;
+        width: 96vw;
+        font-size: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    section img {
+        width: 94vw;
+        text-align: center;
+        border: lightseagreen 1vw solid;
+        border-radius: 3vw;
+        margin-bottom: 4vw;
+    }
+}
+
+
+
+@media only screen and (min-width: 601px) {
+    /* ---------------Balise-générale---------------- */
+    body {
+        font-family: "Gill Sans MT", "Gill Sans MT Medium", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .ntm {
+        color: lightseagreen;
+        font-weight: bold;
+    }
+
+    /* ------------------Contenue-------------------- */
+    section h1 {
+        color: lightseagreen;
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    section {
+        padding-left: 2vw;
+        display: block;
+        width: 96vw;
+        font-size: 1.8vw;
+        line-height: 2.6vw;
+    }
+
+    section img {
+        margin-left: 2vw;
+        margin-right: 2vw;
+        width: 48%;
+        height: calc(48% * 0.75);
+        float: right;
+        text-align: center;
+        border: lightseagreen 1vw solid;
+        border-radius: 3vw;
+    }
+}
