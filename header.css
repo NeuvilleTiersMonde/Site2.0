@@ -122,9 +122,11 @@
     .phoneonly {
         display: none;
     }
+
     .tabletonly {
         display: none;
     }
+
     .menu {
         display: inline-block;
         position: relative;
