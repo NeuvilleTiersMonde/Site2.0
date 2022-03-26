@@ -17,7 +17,100 @@
     }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 601px) and (max-width: 1080px){
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 18vw;
+    }
+
+    .phoneonly {
+        display: none;
+    }
+
+    .exception {
+        display: none;
+    }
+
+    .menu {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        padding: 0 1vw;
+        font-size: 2vw /*1.6em*/;
+        vertical-align: top;
+    }
+
+    .menu:hover {
+        color: lightgray;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        padding: 0 1vw;
+        font-size: 2vw /*1.6em*/;
+        vertical-align: top;
+    }
+
+    .dropbtn {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        padding: 0 1vw;
+        font-size: 2vw /*1.6em*/;
+        vertical-align: top;
+        cursor: pointer;
+    }
+
+    .dropdown-content {
+        display: none;
+        color: black;
+        background-color: white;
+        position: absolute;
+        min-width: 20vw;
+        z-index: 1;
+        border: 0.4vw black solid;
+        border-radius: 2vw;
+    }
+
+    .dropdown-content a {
+        padding: 1vh 1vw;
+        display: block;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: lightgrey;
+        border-radius: 1.8vw;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #now {
+        color: lightseagreen;
+    }
+
+    #now2 {
+        color: lightseagreen;
+    }
+
+    hr {
+        border: 0.2vh solid #222222;
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1081px) {
 
     .logo {
         display: block;
@@ -27,6 +120,9 @@
     }
 
     .phoneonly {
+        display: none;
+    }
+    .tabletonly {
         display: none;
     }
     .menu {
